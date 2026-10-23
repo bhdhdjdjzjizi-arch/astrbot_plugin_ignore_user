@@ -1,0 +1,1 @@
+{"blocked_qq":{"default":[],"description":"拦截名单（用户 ID / QQ 号）","hint":"名单中的用户发送的任何消息（私聊、群聊 @ 机器人、指令）都会在进入 AI 处理前被直接拦截，机器人不会回复。直接在此添加或删除 QQ 号，保存后生效。","type":"list"},"enable_block_log":{"default":true,"description":"记录拦截日志","hint":"开启后，每次拦截都会在 AstrBot 日志中记录一条 INFO 级别日志（仅记录被拦截者的 ID）。","type":"bool"}}

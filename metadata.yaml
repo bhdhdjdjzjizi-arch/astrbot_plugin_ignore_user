@@ -1,0 +1,9 @@
+name: astrbot_plugin_ignore_user
+display_name: 不回复名单（用户消息拦截）
+desc: 按用户 ID 拦截指定用户的消息：名单内用户发送的私聊、群聊消息会在进入 AI 处理流程之前被直接拦截，机器人不予回复。拦截名单可在插件配置页直接增删，无需修改代码。
+short_desc: 让机器人不再回复指定用户，名单在配置页直接增删
+help: 打开本插件的配置页，在「拦截名单（用户 ID / QQ 号）」中添加要屏蔽的用户 ID，保存后生效；删除条目即解除拦截。
+version: v1.1.0
+author: bhdhdjdjzjizi-arch
+repo: https://github.com/bhdhdjdjzjizi-arch/astrbot_plugin_ignore_user
+astrbot_version: ">=4.16,<5"
